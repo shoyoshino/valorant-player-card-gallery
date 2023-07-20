@@ -52,7 +52,7 @@ function App() {
             <h1 className="text-xl md:text-2xl font-bold pt-5 md:pt-0 mx-auto md:mx-0">
               <img src={LogoPng} alt="VALORANTプレイヤーカードギャラリー" className="w-32 md:w-40" />
             </h1>
-            <div className="w-full md:w-auto flex items-start md:items-center flex-col md:flex-row">
+            <div className="sticky top-0 w-full md:w-auto flex items-start md:items-center flex-col md:flex-row">
               <input
                 type="text"
                 ref={ref}
@@ -117,9 +117,9 @@ function App() {
         </div>
         <a
           href="#home"
-          className="w-16 h-16 flex items-center justify-center fixed right-5 md:right-8 bottom-5 select-none bg-gray-800 rounded-full p-1 drop-shadow-md"
+          className="w-12 md:w-16 h-12 md:h-16 flex items-center justify-center fixed right-5 md:right-8 bottom-5 select-none bg-gray-800 rounded-full p-1 drop-shadow-md"
         >
-          <span className="material-icons text-5xl">keyboard_arrow_up</span>
+          <span className="material-icons text-4xl md:text-5xl">keyboard_arrow_up</span>
         </a>
       </div>
     </>
