@@ -117,9 +117,9 @@ function App() {
         </div>
         <a
           href="#home"
-          className="w-10 h-10 flex items-center justify-center fixed right-5 md:right-8 bottom-5 select-none bg-gray-800 rounded-full p-1 drop-shadow-md"
+          className="w-16 h-16 flex items-center justify-center fixed right-5 md:right-8 bottom-5 select-none bg-gray-800 rounded-full p-1 drop-shadow-md"
         >
-          <span className="material-icons material-symbols-outlined md-48">keyboard_arrow_up</span>
+          <span className="material-icons text-5xl">keyboard_arrow_up</span>
         </a>
       </div>
     </>
