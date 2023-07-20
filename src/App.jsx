@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoPng from './assets/logo.png';
 
 function App() {
@@ -87,7 +87,7 @@ function App() {
           </div>
         </header>
 
-        <div className="container mx-auto px-5 pb-10">
+        <div className="container mx-auto px-5 pb-20">
           <div
             className={`grid gap-5 md:gap-10 mt-10 ${
               playerCardType === 'large'
@@ -115,12 +115,12 @@ function App() {
             ))}
           </div>
         </div>
-        <a
+        <AnchorLink
           href="#home"
           className="w-12 md:w-16 h-12 md:h-16 flex items-center justify-center fixed right-5 md:right-8 bottom-5 select-none bg-gray-800 rounded-full p-1 drop-shadow-md"
         >
           <span className="material-icons text-4xl md:text-5xl">keyboard_arrow_up</span>
-        </a>
+        </AnchorLink>
       </div>
     </>
   );
