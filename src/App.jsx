@@ -47,12 +47,12 @@ function App() {
   return (
     <>
       <div className="text-white bg-[#0f1822] w-full min-h-screen" id="home">
-        <header className="sticky top-0 w-full">
+        <header className="w-full">
           <div className="h-auto md:h-40 container mx-auto px-5 flex items-start md:items-center md:justify-between flex-col gap-0 md:flex-row">
             <h1 className="text-xl md:text-2xl font-bold pt-5 md:pt-0 mx-auto md:mx-0">
               <img src={LogoPng} alt="VALORANTプレイヤーカードギャラリー" className="w-32 md:w-40" />
             </h1>
-            <div className="sticky top-0 w-full md:w-auto flex items-start md:items-center flex-col md:flex-row">
+            <div className="w-full md:w-auto flex items-start md:items-center flex-col md:flex-row">
               <input
                 type="text"
                 ref={ref}
