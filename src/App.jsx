@@ -48,7 +48,7 @@ function App() {
     <>
       <div className="text-white bg-[#0f1822] w-full min-h-screen" id="home">
         <header className="sticky top-0 w-full">
-          <div className="h-auto md:h-40 container mx-auto px-5 md:px-0 flex items-start md:items-center md:justify-between flex-col gap-0 md:flex-row">
+          <div className="h-auto md:h-40 container mx-auto px-5 flex items-start md:items-center md:justify-between flex-col gap-0 md:flex-row">
             <h1 className="text-xl md:text-2xl font-bold pt-5 md:pt-0 mx-auto md:mx-0">
               <img src={LogoPng} alt="VALORANTプレイヤーカードギャラリー" className="w-32 md:w-40" />
             </h1>
@@ -87,7 +87,7 @@ function App() {
           </div>
         </header>
 
-        <div className="container mx-auto px-5 md:px-0 pb-10">
+        <div className="container mx-auto px-5 pb-10">
           <div
             className={`grid gap-5 md:gap-10 mt-10 ${
               playerCardType === 'large'
@@ -115,8 +115,11 @@ function App() {
             ))}
           </div>
         </div>
-        <a href="#home" className="fixed right-10 bottom-10 select-none bg-gray-900 p-2">
-          PAGETOP
+        <a
+          href="#home"
+          className="w-10 h-10 flex items-center justify-center fixed right-5 md:right-8 bottom-5 select-none bg-gray-800 rounded-full p-1 drop-shadow-md"
+        >
+          <span className="material-icons material-symbols-outlined md-48">keyboard_arrow_up</span>
         </a>
       </div>
     </>
